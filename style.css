@@ -1,0 +1,76 @@
+body {
+  background: linear-gradient(135deg, #eef2f3 0%, #8e9eab 100%);
+  min-height: 100vh;
+  min-height: 100dvh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 20px 0;
+}
+
+.main-card {
+  border: none;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+  background: #ffffff;
+  overflow: hidden;
+}
+
+.card-header-custom {
+  background: #4f46e5;
+  color: #ffffff;
+  padding: 24px;
+  text-align: center;
+}
+
+.task-item {
+  background: #ffffff;
+  transition: all 0.25s ease-in-out;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #e2e8f0;
+}
+
+.task-item.done {
+  background: #f8fafc;
+}
+
+.task-item:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+}
+
+.task-text {
+  overflow-wrap: anywhere;
+  font-weight: 500;
+  color: #1e293b;
+}
+
+.completed-task {
+  text-decoration: line-through;
+  color: #64748b;
+  font-weight: 400;
+}
+
+.btn-custom {
+  background-color: #4f46e5;
+  color: white;
+}
+
+.btn-custom:hover {
+  background-color: #4338ca;
+  color: white;
+}
+
+/* Theme-matching focus styles */
+.btn-custom:focus-visible,
+.form-control:focus {
+  box-shadow: 0 0 0 0.25rem rgba(79, 70, 229, 0.25);
+  border-color: #4f46e5;
+}
+
+.form-check-input:checked {
+  background-color: #4f46e5;
+  border-color: #4f46e5;
+}
