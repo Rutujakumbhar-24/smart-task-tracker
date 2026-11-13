@@ -1,0 +1,62 @@
+# Smart Task Tracker
+
+A clean, responsive to-do app built with HTML, CSS, Bootstrap 5 and vanilla JavaScript. Tasks are saved in the browser, so they stay after a refresh.
+
+**Live Demo:** https://rutujakumbhar-24.github.io/smart-task-tracker/
+
+![Smart Task Tracker screenshot](Screenshot.png)
+
+## Features
+
+- Add, complete and delete tasks
+- Filter tasks: All / Open / Completed
+- Pending task counter
+- Data persists using `localStorage`
+- XSS-safe rendering (user input is escaped)
+- Responsive layout for mobile and desktop
+- Accessible controls (`aria-label`, keyboard focus styles)
+
+## Tech Stack
+
+- HTML5
+- CSS3
+- Bootstrap 5 and Bootstrap Icons
+- JavaScript (ES6+)
+
+## Project Structure
+
+```
+smart-task-tracker/
+├── index.html
+├── style.css
+├── script.js
+├── screenshot.png
+└── README.md
+```
+
+## Run Locally
+
+```bash
+git clone https://github.com/Rutujakumbhar-24/smart-task-tracker.git
+cd smart-task-tracker
+```
+
+Open `index.html` in your browser (or use the VS Code Live Server extension).
+
+## What I Learned
+
+- DOM manipulation and event delegation
+- Working with `localStorage` and safe `JSON.parse`
+- Preventing XSS by escaping user input
+- Building responsive UI with Bootstrap
+
+## Future Improvements
+
+- Edit task text
+- Due dates and priorities
+- Dark mode
+
+## Author
+
+**Rutuja Kumbhar**
+GitHub: [Rutujakumbhar-24](https://github.com/Rutujakumbhar-24)
