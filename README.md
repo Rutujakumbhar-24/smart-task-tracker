@@ -1,3 +1,4 @@
+![Uploading Screenshot.png…]()
 # Smart Task Tracker
 
 A clean, responsive to-do app built with HTML, CSS, Bootstrap 5 and vanilla JavaScript. Tasks are saved in the browser, so they stay after a refresh.
