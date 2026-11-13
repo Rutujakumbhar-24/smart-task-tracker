@@ -4,7 +4,7 @@ A clean, responsive to-do app built with HTML, CSS, Bootstrap 5 and vanilla Java
 
 **Live Demo:** https://rutujakumbhar-24.github.io/smart-task-tracker/
 
-![Smart Task Tracker screenshot](Screenshot.png)
+![Smart Task Tracker screenshot](screenshot.png)
 
 ## Features
 
